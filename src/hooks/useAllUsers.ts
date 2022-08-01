@@ -4,7 +4,7 @@ import { UserProfile } from "../types/userProfile";
 import { User } from "../types/api/user";
 
 // 全ユーザ一覧を取得するカスタムフック
-// ロジック切り分け
+// 処理とstateの切り分け
 export const useAllUsers = () => {
   const [userProfiles, setUserProfiles] = useState<Array<UserProfile>>([]);
   const [loading, setLoading] = useState(false);
