@@ -33,5 +33,6 @@ export const useAllUsers = () => {
       });
   };
 
+  // 処理とstateをまとめて返す
   return { getUsers, userProfiles, loading, error };
 };
